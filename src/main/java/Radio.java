@@ -49,7 +49,7 @@ public class Radio {
 
     }
 
-    public void increaseVolume(int newCurrentVolume) {
+    public void increaseVolume() {
         if (currentVolume < 100) ;
         {
             setCurrentVolume(currentVolume + 1);
@@ -58,7 +58,7 @@ public class Radio {
     }
 
 
-    public void decreaseVolume(int newCurrentVolume) {
+    public void decreaseVolume() {
         if (currentVolume > 0) ;
         {
             setCurrentVolume(currentVolume - 1);
